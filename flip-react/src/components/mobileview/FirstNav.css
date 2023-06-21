@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: font1;
+    src: url('../fonts/font1.woff2')
+}
+
+@font-face {
+    font-family: font2;
+    src: url('../fonts/font2.woff2')
+}
+
+@font-face {
+    font-family: font3;
+    src: url('../fonts/font3.woff2')
+}
+@font-face {
+    font-family: font4;
+    src: url('../fonts/font4.woff2')
+}
+.nav-list ul{
+    display: flex;
+    list-style-type: none;
+    overflow: scroll;
+}
+.nav-list ul li img {
+    width: 58px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (min-width:375px) {
+    .nav-list ul li img {
+        width: 68px;
+    }    
+}
+@media screen and (min-width:425px) {
+    .nav-list ul li img {
+        width: 78px;
+    }    
+}
+@media screen and (min-width:768px) {
+    .nav-list ul li img {
+        width: 140px;
+    }    
+}

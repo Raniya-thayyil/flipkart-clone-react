@@ -1,0 +1,18 @@
+.desktop {
+    display: none;
+    background-color: #f1f3f6;
+}
+.container {
+    max-width: 1600px;
+    margin-inline: auto;
+}
+
+@media screen and (min-width:1024px) {
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+    
+}

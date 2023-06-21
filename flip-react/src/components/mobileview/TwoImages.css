@@ -1,0 +1,7 @@
+.images-list {
+    display:flex
+}
+.images-list img {
+    width: 50%;
+
+}

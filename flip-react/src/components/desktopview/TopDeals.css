@@ -1,0 +1,58 @@
+.top-deal-textlink h2 {
+    color: #000000;
+    font-size: 30px;
+    font-family: font1;
+    font-weight: 100;
+    
+}
+.top-deals-main {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    margin-inline: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+}
+.top-deal-textlink {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 230px;
+    padding-inline: 51px;
+    padding-block: 110px;
+    z-index: 2;
+    background-color: #ffffff;
+}
+
+.deal-angle {
+    padding: 20px;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+    border-radius: 2px;
+    position: absolute;
+    display: block;
+    right: 12px;
+    background-color: #ffffff;
+    transform: rotate(180deg);
+}
+.deal-angle img {   
+    height: 56px;
+    width: 15px;    
+}
+.angle-left {
+    padding: 20px;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+    border-radius: 2px;
+    position: absolute;
+    display: block;   
+    left:242px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+.angle-left img {
+    height: 56px;
+    width: 15px;    
+}
+.offers-main img {
+    width: 163px;
+}

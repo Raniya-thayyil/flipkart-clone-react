@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: font1;
+    src: url('../fonts/font1.woff2')
+}
+
+@font-face {
+    font-family: font2;
+    src: url('../fonts/font2.woff2')
+}
+
+@font-face {
+    font-family: font3;
+    src: url('../fonts/font3.woff2')
+}
+@font-face {
+    font-family: font4;
+    src: url('../fonts/font4.woff2')
+}
+.header-main {
+    background-color: rgba(40,116,240,1.00);
+    height:104px
+}
+.ham-logo :nth-child(2) {
+    width: 85px;
+    margin-left: 12px;
+
+}
+.ham-logo :nth-child(1) {
+ transform: translate(3px, -6px);
+
+}
+.ham-logo  {
+    margin-left: -40px;
+    
+}
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding-inline:10px ; */
+    padding-top: 14px;
+}
+.icons :nth-child(1) {
+    padding-right: 24px;
+}
+.login a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-size: 16px;
+    font-family: font4;
+}
+.form1 input {
+    padding: 11px;
+    /* padding-inline:48px ; */
+    padding-left: 38px;
+    /* padding-right: 23px; */
+    border: none;
+    border-radius: 2px;
+    width: 96%;    
+    font-family: font4;
+    font-size: 14px;
+    margin-top: 11px;  
+    /* color: #878787; */
+}
+.form1 {
+    position: relative;
+}
+::placeholder {
+    color: #878787;
+}
+.form1 img {
+    width:14px;
+    position: absolute;
+    top:23px;
+    left:18px
+}
+.icons-login {
+    display: flex;
+}
+.login a span {
+    margin-left: 31px;
+    margin-right: -24px;
+}
+
+@media screen and (min-width:375px) {
+    .header-top {
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (min-width:425px) {
+    .ham-logo {
+        margin-left: -65px;
+    }
+    .login a span {
+        margin-right: -45px;
+    }
+    
+}

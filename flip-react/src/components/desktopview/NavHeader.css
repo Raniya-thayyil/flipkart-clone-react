@@ -1,0 +1,30 @@
+.main-nav {
+    display: flex;   
+    gap: 18px;
+    width: 100%;
+    padding-inline: 22px;
+    justify-content: center;
+    border-bottom: 1px solid #e7dcdc;   
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 7%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 1%);
+}
+.each-nav {   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 12px;   
+
+}
+.each-nav img {
+    width: 64px;
+}
+.each-nav span {
+    font-size: 14px;
+    font-family: font2;
+    color: #212121;   
+}
+@media screen and (min-width:1440px) {
+    .main-nav {
+        justify-content: space-around;
+        padding-inline: 83px;
+    }    
+}

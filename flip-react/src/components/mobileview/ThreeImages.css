@@ -1,0 +1,13 @@
+.img-list {
+    display: flex;
+    margin-top: -5px;
+}
+.img-list img {
+    width: 33%;
+}
+@media screen and (min-width:375px) {
+    .img-list img {
+        width: 33%;
+    }
+    
+}

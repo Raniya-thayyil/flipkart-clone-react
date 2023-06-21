@@ -1,0 +1,25 @@
+.wish-list { 
+    display: flex;
+    overflow: scroll;
+}
+.wish-list-main {
+    margin-top: 24px;
+}
+.whish-head {
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/640/135/image/ba0cfd6670151b61.jpg?q=60');
+}
+.wishlist-items img {
+    width: 120px;
+}
+.whish-head {
+    padding: 12px 16px;
+    text-align: left;
+    font-family: roboto;
+    color: #111112;
+}
+@media screen and (min-width:768px) {
+    .wishlist-items img {
+        width: 148px;
+    }
+    
+}

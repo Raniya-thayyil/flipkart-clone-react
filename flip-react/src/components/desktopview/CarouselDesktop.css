@@ -1,0 +1,57 @@
+.carousel-desk img{
+    width: 1680px;
+    height: 280px;
+
+}
+.carousel-desk  {
+    display: flex;
+    overflow: hidden;
+    margin-top: 12px;
+    padding: 8px;
+    position: relative;
+    margin-inline: 8px;
+}
+.hdfc {
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 7%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 1%);
+    padding: 8px;
+    background-color: #ffffff;
+    margin-inline: auto;
+}
+.hdfc img {
+    width: 100%;
+}
+.arrowleft {
+    padding: 20px;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+    border-radius: 2px;
+    position: absolute;
+    display: block;   
+    left:0px;
+    background-color: #ffffff;
+    z-index: 2;
+    bottom: 100px;
+    width: 48px;
+} 
+.arrowleft img {
+    height: 56px;
+    width: 15px;
+
+}
+.arrowright {
+    transform: rotate(180deg);
+    padding: 20px;
+    box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
+    border-radius: 2px;
+    position: absolute;
+    display: block;
+    right: -2px;
+    bottom: 100px;    
+    background-color: #ffffff;
+    z-index: 2;
+    width: 48px;    
+} 
+.arrowright img {
+    height: 56px;
+    width: 15px;
+
+}
