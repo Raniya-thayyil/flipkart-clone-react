@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 import './FirstNav.css'
 
 function FirstNav(props) {
@@ -16,7 +14,7 @@ function FirstNav(props) {
     {console.log(navList)}
         {navList.map((item, idx) => (
               <li key={idx}>
-                <img src={item.image}/>
+                <img src={item.image} alt="image"/>
               </li>
             ))}
         </ul>

@@ -10,7 +10,7 @@ function ElectronicList(props) {
     <>
       <div className="electronic-list">        
         {electronicsList.map((item, idx) => {
-          return <img src={item} />;
+          return <img src={item} alt="electronic images"/>;
         })}
       </div>
     </>

@@ -9,7 +9,7 @@ function AcMobiles(props) {
       <div className="acMobile-list-main">
         {acMobilesLists.map((item) => (
           <div className="acMobile-list">
-            <img src={item} />
+            <img src={item} alt="ac mobile list"/>
           </div>
         ))}
       </div>
