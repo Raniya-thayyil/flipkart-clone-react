@@ -5,7 +5,7 @@ import "./Carousel.css";
 function Carousel(props) {
   let [index, setIndex] = useState(0);
 
-  const { carouselList } = props;
+  const {carouselList} = props;
 
   const callIndex = () => {
     setIndex(index === carouselList.length - 1 ? 0 : index + 1);
