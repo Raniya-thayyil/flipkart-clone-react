@@ -1,10 +1,8 @@
-import React from "react"
+import React from "react";
 import "./InterestingFind.css";
 
 function InterestingFind(props) {
-    const {
-        findsList
-    } = props
+  const { findsList } = props;
 
   return (
     <>
@@ -17,7 +15,7 @@ function InterestingFind(props) {
           {findsList.map((item, idx) => {
             return (
               <div className="list-items">
-                <img src={item.image} />
+                <img src={item.image} alt="image" />
                 <p className="name">{item.caption}</p>
                 <p className="price">{item.priceBrand}</p>
               </div>

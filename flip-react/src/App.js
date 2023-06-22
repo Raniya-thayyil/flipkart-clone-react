@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-import FlipkartHome from './FlipkartHome';
+import FlipkartHome from "./FlipkartHome";
 
 function App() {
   return (
-    <div className="App" >
-      <FlipkartHome/>
- 
+    <div className="App">
+      <FlipkartHome />
     </div>
   );
 }

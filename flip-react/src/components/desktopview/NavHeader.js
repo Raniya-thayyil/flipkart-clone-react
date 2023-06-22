@@ -12,7 +12,7 @@ function NavHeader(props) {
         {navList.map((item) => {
             return (
                 <div className="each-nav">
-                <img src={item.image}/>
+                <img src={item.image} alt="nav images"/>
                 <span>{item.caption}</span>
             </div>
             )

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import "./CarouselDesktop.css";
 import leftAngle from "../assets/leftAngle.svg";
+import "./CarouselDesktop.css";
 
 function CarouselDesktop(props) {
   const { carouselList } = props;
@@ -35,8 +35,8 @@ function CarouselDesktop(props) {
   return (
     <>
       <div className="carousel-desk">
-        <div className="arrowleft">
-          <img src={leftAngle} onClick={handleClickLeft} />
+        <div className="arrow-left">
+          <img src={leftAngle} onClick={handleClickLeft} alt="left arrow" />
         </div>
         {carouselList.map((item, idx) => (
           <div
@@ -47,10 +47,10 @@ function CarouselDesktop(props) {
             }}
             key={item}
           >
-            <img src={item} />
+            <img src={item} alt="carousel images" />
           </div>
         ))}
-        <div className="arrowright">
+        <div className="arrow-right">
           <img src={leftAngle} onClick={handleClickRight} />
         </div>
       </div>

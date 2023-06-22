@@ -1,42 +1,46 @@
-.top-offer-textlink {
-    background: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/0b22f4bdbe5b032a.jpg?q=90');
-    background-repeat: no-repeat;   
-    background-position: 0px bottom;
+.top-offer-textlink {   
+    background: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/0b22f4bdbe5b032a.jpg?q=90);
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
     padding: 28px 10px 124px;
     z-index: 3;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 230px;
-    background-color: #ffffff;    
-    padding-top: 132px;
-    
-    
 }
+.text-div{
+    padding-top: 132px;
+    background-color: white;
+}
+
 .top-offers-main {
+    background: #fff;
     margin-top: 12px;
-   position: relative;
+    position: relative;
     display: flex;
-    background: #ffff;
     align-items: flex-end;
-    margin-inline: auto;
     overflow: hidden;
+    margin-inline: auto;
     box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
 }
+
 .topoffers-list {
     display: flex;
-   width: 542px;
+    width: 542px;
 }
+
 .offer-ad img {
     width: 230px;
 }
-.offer-ad {
-    z-index: 2;
-    position: absolute;
 
-    top:0;
+.offer-ad {
+    position: absolute;
+    z-index: 2;
+    top: 0;
     right: 0;
 }
+
 .top-offer-textlink h2 {
     color: #212121;
     font-size: 30px;
@@ -47,16 +51,19 @@
 .offers-main {
     padding: 25px 15px;
 }
+
 span.cap {
     font-size: 14px;
     margin-top: 15px;
     color: #212121;
     font-family: font2;
 }
+
 .texts-offer {
     display: block;
     padding-top: 20px;
 }
+
 span.offername {
     display: block;
     color: #388e3c;
@@ -64,61 +71,61 @@ span.offername {
     padding: 8px 0px 0px;
     font-family: font1;
 }
+
 span.pricedetail {
     display: block;
     font-size: 14px;
     padding: 7px 0px 0px;
     color: #878787;
     margin-top: -16px;
-
 }
+
 .viewall {
     margin-top: 24px;
     margin-bottom: 9px;
 }
-.viewall a{
+
+.viewall a {
     background-color: #2874f0;
-    padding:10px 20px ;
+    padding: 10px 20px;
     border-radius: 2px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     font-size: 13px;
-    
 }
 
-.angle {  
+.angle {
+    background-color: #fff;
     padding: 20px;
     box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
     border-radius: 2px;
     position: absolute;
     display: block;
-    right: 225px;
-    background-color: #ffffff;
-    transform: rotate(180deg);
-    bottom: 129px;
     z-index: 3;
+    right: 225px;
+    bottom: 129px;
+    transform: rotate(180deg);
 }
 
-.angle img {   
+.angle img {
     height: 56px;
     width: 15px;
-    
-    
 }
-.leftArrow {
+
+.left-arrow {
     padding: 20px;
     box-shadow: 0 0.1875rem 0.4375rem 0 rgb(0 0 0 / 13%), 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 11%);
     border-radius: 2px;
     position: absolute;
-    display: block;    
-    left:241px;
-    background-color: #ffffff;
+    display: block;
     z-index: 1;
+    left: 241px;
     bottom: 129px;
+    background-color: #fff;
 }
-.leftArrow img {
+
+.left-arrow img {
     height: 56px;
     width: 15px;
 }
-

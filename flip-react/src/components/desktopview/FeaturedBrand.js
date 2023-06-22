@@ -30,17 +30,17 @@ function FeaturedBrand(props) {
         <h2>Featured Brand</h2>
 
         <div className="angle-left-feat" ref={arrowLeft}>
-          <img src={leftAngle} onClick={handleClickLeft} />
+          <img src={leftAngle} onClick={handleClickLeft} alt="left angle"/>
         </div>
         <div className="features-list" ref={imgCard}>
           {featuresList.map((item) => (
             <div className="feat-imglist">
-              <img src={item} />
+              <img src={item} alt="images"/>
             </div>
           ))}
         </div>
         <div className="deal-angle-feat" ref={rightArrow}>        
-          <img src={leftAngle} onClick={handleClickRight} />
+          <img src={leftAngle} onClick={handleClickRight} alt="right angle"/>
         </div>
       </div>
     </>
